@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #eee;
+}
+
+.navbar_container {
+  background: #ccc;
+}
+
+.navbar_container ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.navbar_container ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.start_cta {
+  padding: 1rem;
+  background-color: rgb(15, 228, 164);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 0.8rem;
+  margin: 1rem 0.3rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn.btn-next {
+  background-color: rgb(100, 195, 240);
+}
+
+.btn.btn-back {
+  background-color: rgb(243, 91, 91);
+}
